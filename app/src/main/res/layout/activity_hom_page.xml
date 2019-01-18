@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homPage"
+    android:orientation="vertical"
+    android:background="@drawable/blod"
+    >
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood Bank Management"
+        android:textColor="#f50509"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        >
+        <Button
+
+            android:padding="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Need Blood"
+            android:gravity="bottom"
+            android:background="#05e9e9"
+            android:textColor="#77f1021a"
+            android:textSize="15dp"
+            android:id="@+id/needBloodbtn"
+            />
+        <Button
+            android:layout_marginLeft="20dp"
+            android:padding="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Be A Donar"
+            android:gravity="bottom"
+            android:background="#05eac8"
+            android:textColor="#77ff031c"
+            android:textSize="15dp"
+            android:id="@+id/donarbtn"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:text="Information"
+        android:textSize="15dp"
+        android:padding="30dp"
+        android:background="#0be7f7"
+        android:textColor="#77f5030b"
+        android:id="@+id/infoBtn"
+        />
+
+</LinearLayout>
